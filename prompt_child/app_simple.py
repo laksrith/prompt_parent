@@ -2,6 +2,7 @@ import os
 import logging
 import tempfile
 import json
+import random
 from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
 from github_scanner import GitHubScanner
